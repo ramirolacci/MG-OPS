@@ -19,6 +19,9 @@ export function App() {
       } else if (e.key === '2') {
         const card2 = document.getElementById(`card-${currentCards[1]?.id}`);
         if (card2) card2.click();
+      } else if (e.key === '3') {
+        const card3 = document.getElementById(`card-${currentCards[2]?.id}`);
+        if (card3) card3.click();
       }
     };
 

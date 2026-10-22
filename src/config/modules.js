@@ -41,6 +41,20 @@ export const APP_CONFIG = {
       image: "./supervisoria.png",
       status: "ONLINE",
       type: "store"
+    },
+    {
+      id: "planificacion",
+      title: "Planificación",
+      badgeText: "ORGANIZACIÓN & HORARIOS",
+      subtitle: "PLANIFICACIÓN SEMANAL, HORARIOS DE VISITA Y OBJETIVOS DE SUPERVISORAS",
+      url: "https://migusto.com.ar/operaciones/supervisoria/planificacion",
+      target: "_self",
+      accentColor: "#6366f1", // Índigo moderno
+      accentBg: "rgba(99, 102, 241, 0.15)",
+      accentBorder: "rgba(99, 102, 241, 0.4)",
+      image: "./planificacion.png",
+      status: "ONLINE",
+      type: "calendar"
     }
   ],
 
