@@ -71,6 +71,46 @@ Suite de utilidades para potenciar la productividad y comunicación en los punto
 
 ---
 
+## 🚀 Instalación y Puesta en Marcha
+
+Sigue estos pasos para clonar y ejecutar el proyecto en tu entorno local:
+
+### 1. Requisitos Previos
+- **[Node.js](https://nodejs.org/)** (v18.0 o superior recomendado)
+- **[pnpm](https://pnpm.io/)** (gestor de paquetes recomendado) o **npm**
+
+### 2. Clonar el Repositorio
+```bash
+git clone https://github.com/tu-usuario/mg-ops.git
+cd mg-ops
+```
+
+### 3. Instalar Dependencias
+Utilizando `pnpm`:
+```bash
+pnpm install
+```
+*(o si utilizas npm: `npm install`)*
+
+### 4. Servidor de Desarrollo
+Inicia el entorno de desarrollo local con recarga rápida (HMR):
+```bash
+pnpm dev
+```
+La aplicación quedará disponible en `http://localhost:5173/` (o el puerto que asigne Vite).
+
+### 5. Compilación para Producción
+Para generar los archivos listos para despliegue en la carpeta `dist/`:
+```bash
+pnpm build
+```
+Puedes previsualizar el build generado localmente con:
+```bash
+pnpm preview
+```
+
+---
+
 <div align="center">
   <sub>© Desarrollado por el Departamento de Sistemas de Mi Gusto | Todos los derechos reservados.</sub>
 </div>
