@@ -32,7 +32,7 @@
       <td width="50%" align="center">
         <b>🏬 Sucursales & Tiendas</b><br/>
         <sub>Auditoría bromatológica y supervisión operativa en locales</sub><br/><br/>
-        <img src="public/screenshots/Screenshot_1.png" alt="Vista Sucursales y Tiendas" width="100%" />
+        <img src="public/screenshots/Screenshot_5.png" alt="Vista Sucursales y Tiendas" width="100%" />
       </td>
       <td width="50%" align="center">
         <b>🛠️ Herramientas Digitales</b><br/>
