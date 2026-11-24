@@ -52,6 +52,8 @@ Acceso unificado para el seguimiento y aseguramiento de calidad en toda la red d
 
 - **🛡️ Auditoría de Locales:** Control bromatológico, cumplimiento de estándares de manipulación de alimentos, temperaturas de horneado, presentación de producto en vitrinas y auditorías comerciales.
 - **📋 Supervisoría de Sucursales:** Gestión de apertura y cierre, control de asistencia, turnos de personal, novedades de tienda y verificación de la calidad de servicio.
+- **📅 Planificación:** Planificación semanal, horarios de visita y objetivos de supervisoras.
+- **💼 Proceso Gerencial:** Control de procesos, supervisión gerencial y seguimiento operativo en locales comerciales.
 
 ### 🛠️ Herramientas Operativas
 Suite de utilidades para potenciar la productividad y comunicación en los puntos de venta:
@@ -65,7 +67,7 @@ Suite de utilidades para potenciar la productividad y comunicación en los punto
 
 - **Fondo Tecnológico & Cyber-Grid:** Estética oscura inmersiva con cuadrícula técnica, efectos de iluminación sutiles (*glow*) por módulo y partículas.
 - **Navegación Dinámica Fluida:** Cambio instantáneo entre vistas con animaciones optimizadas y retroalimentación sonora sutil mediante Web Audio API.
-- **Atajos de Teclado Operativos:** Acceso ultra veloz a módulos y herramientas mediante teclas numéricas (`1` y `2`).
+- **Atajos de Teclado Operativos:** Acceso ultra veloz a módulos y herramientas mediante teclas numéricas (`1`, `2`, `3` y `4`).
 - **Diseño Adaptativo Premium:** Interfaz responsive optimizada tanto para estaciones de escritorio en oficinas centrales como para dispositivos móviles en tienda.
 - **Open Graph Ready:** Metadatos y banners de vista previa optimizados para compartir enlaces enriquecidos en WhatsApp y canales de mensajería interna.
 

@@ -55,6 +55,20 @@ export const APP_CONFIG = {
       image: "./planificacion.png",
       status: "ONLINE",
       type: "calendar"
+    },
+    {
+      id: "procesogerencial",
+      title: "Proceso Gerencial",
+      badgeText: "CONTROL GERENCIAL",
+      subtitle: "CONTROL DE PROCESOS, SUPERVISIÓN GERENCIAL Y GESTIÓN OPERATIVA",
+      url: "https://www.migusto.com.ar/operaciones/procesogerencial/",
+      target: "_self",
+      accentColor: "#0ea5e9", // Azul Mi Gusto / Cian moderno
+      accentBg: "rgba(14, 165, 233, 0.15)",
+      accentBorder: "rgba(14, 165, 233, 0.4)",
+      image: "./procesogerencial.png",
+      status: "ONLINE",
+      type: "management"
     }
   ],
 

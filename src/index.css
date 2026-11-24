@@ -492,6 +492,16 @@ html, body {
   box-shadow: 0 16px 45px rgba(245, 158, 11, 0.22), 0 0 25px rgba(245, 158, 11, 0.16);
 }
 
+.module-card[data-id="planificacion"]:hover {
+  border-color: #6366f1;
+  box-shadow: 0 16px 45px rgba(99, 102, 241, 0.22), 0 0 25px rgba(99, 102, 241, 0.16);
+}
+
+.module-card[data-id="procesogerencial"]:hover {
+  border-color: #0ea5e9;
+  box-shadow: 0 16px 45px rgba(14, 165, 233, 0.22), 0 0 25px rgba(14, 165, 233, 0.16);
+}
+
 .module-card[data-id="qrgenpro"]:hover {
   border-color: #06b6d4;
   box-shadow: 0 16px 45px rgba(6, 182, 212, 0.25), 0 0 25px rgba(6, 182, 212, 0.18);
@@ -720,13 +730,17 @@ html, body {
 
   /* Marco blanco sutil para destacar sobre el fondo en mobile */
   .module-card[data-id="auditoria"],
-  .module-card[data-id="supervisoria"] {
+  .module-card[data-id="supervisoria"],
+  .module-card[data-id="planificacion"],
+  .module-card[data-id="procesogerencial"] {
     border: 1px solid rgba(255, 255, 255, 0.28);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(255, 255, 255, 0.08);
   }
 
   .module-card[data-id="auditoria"]:active,
-  .module-card[data-id="supervisoria"]:active {
+  .module-card[data-id="supervisoria"]:active,
+  .module-card[data-id="planificacion"]:active,
+  .module-card[data-id="procesogerencial"]:active {
     border-color: rgba(255, 255, 255, 0.6);
   }
 

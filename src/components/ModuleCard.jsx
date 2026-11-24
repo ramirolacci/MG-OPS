@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck, ClipboardCheck, QrCode, Sparkles, ExternalLink, ChevronRight, Calendar } from 'lucide-react';
+import { ShieldCheck, ClipboardCheck, QrCode, Sparkles, ExternalLink, ChevronRight, Calendar, Briefcase } from 'lucide-react';
 import { playSound } from '../utils/sound';
 
 export const ModuleCard = ({ module }) => {
@@ -11,6 +11,9 @@ export const ModuleCard = ({ module }) => {
         return <ClipboardCheck size={22} strokeWidth={2.2} />;
       case 'calendar':
         return <Calendar size={22} strokeWidth={2.2} />;
+      case 'management':
+      case 'briefcase':
+        return <Briefcase size={22} strokeWidth={2.2} />;
       case 'qr':
         return <QrCode size={22} strokeWidth={2.2} />;
       case 'video':
